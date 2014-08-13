@@ -47,9 +47,10 @@
             // 
             // btnShowBG
             // 
-            this.btnShowBG.Location = new System.Drawing.Point(104, 41);
+            this.btnShowBG.Location = new System.Drawing.Point(156, 63);
+            this.btnShowBG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnShowBG.Name = "btnShowBG";
-            this.btnShowBG.Size = new System.Drawing.Size(75, 23);
+            this.btnShowBG.Size = new System.Drawing.Size(112, 35);
             this.btnShowBG.TabIndex = 0;
             this.btnShowBG.Text = "Play Video";
             this.btnShowBG.UseVisualStyleBackColor = true;
@@ -58,26 +59,29 @@
             // chkLoop
             // 
             this.chkLoop.AutoSize = true;
-            this.chkLoop.Location = new System.Drawing.Point(12, 45);
+            this.chkLoop.Location = new System.Drawing.Point(18, 69);
+            this.chkLoop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkLoop.Name = "chkLoop";
-            this.chkLoop.Size = new System.Drawing.Size(86, 17);
+            this.chkLoop.Size = new System.Drawing.Size(125, 24);
             this.chkLoop.TabIndex = 2;
             this.chkLoop.Text = "Loop Video?";
             this.chkLoop.UseVisualStyleBackColor = true;
             // 
             // txtVUrl
             // 
-            this.txtVUrl.Location = new System.Drawing.Point(12, 15);
+            this.txtVUrl.Location = new System.Drawing.Point(18, 23);
+            this.txtVUrl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtVUrl.Name = "txtVUrl";
-            this.txtVUrl.Size = new System.Drawing.Size(646, 20);
+            this.txtVUrl.Size = new System.Drawing.Size(967, 26);
             this.txtVUrl.TabIndex = 3;
             this.txtVUrl.Text = "C:\\\\Users\\\\Tom\\\\Desktop\\\\def1.mp4";
             // 
             // btnStopBG
             // 
-            this.btnStopBG.Location = new System.Drawing.Point(185, 41);
+            this.btnStopBG.Location = new System.Drawing.Point(278, 63);
+            this.btnStopBG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnStopBG.Name = "btnStopBG";
-            this.btnStopBG.Size = new System.Drawing.Size(75, 23);
+            this.btnStopBG.Size = new System.Drawing.Size(112, 35);
             this.btnStopBG.TabIndex = 4;
             this.btnStopBG.Text = "Stop Video";
             this.btnStopBG.UseVisualStyleBackColor = true;
@@ -86,36 +90,40 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(266, 46);
+            this.lblStatus.Location = new System.Drawing.Point(399, 71);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(40, 13);
+            this.lblStatus.Size = new System.Drawing.Size(60, 20);
             this.lblStatus.TabIndex = 5;
             this.lblStatus.Text = "Status:";
             // 
             // txtOne
             // 
-            this.txtOne.Location = new System.Drawing.Point(12, 84);
+            this.txtOne.Location = new System.Drawing.Point(18, 129);
+            this.txtOne.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtOne.Multiline = true;
             this.txtOne.Name = "txtOne";
-            this.txtOne.Size = new System.Drawing.Size(646, 20);
+            this.txtOne.Size = new System.Drawing.Size(967, 29);
             this.txtOne.TabIndex = 6;
             this.txtOne.Text = "LineOne\\r\\nLineTwo";
             // 
             // txtTwo
             // 
-            this.txtTwo.Location = new System.Drawing.Point(12, 110);
+            this.txtTwo.Location = new System.Drawing.Point(18, 169);
+            this.txtTwo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTwo.Multiline = true;
             this.txtTwo.Name = "txtTwo";
-            this.txtTwo.Size = new System.Drawing.Size(646, 20);
+            this.txtTwo.Size = new System.Drawing.Size(967, 29);
             this.txtTwo.TabIndex = 7;
             this.txtTwo.Text = "LineThree\\r\\nLineFour";
             this.txtTwo.TextChanged += new System.EventHandler(this.txtTwo_TextChanged);
             // 
             // btnShowTxt
             // 
-            this.btnShowTxt.Location = new System.Drawing.Point(12, 136);
+            this.btnShowTxt.Location = new System.Drawing.Point(18, 209);
+            this.btnShowTxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnShowTxt.Name = "btnShowTxt";
-            this.btnShowTxt.Size = new System.Drawing.Size(75, 23);
+            this.btnShowTxt.Size = new System.Drawing.Size(112, 35);
             this.btnShowTxt.TabIndex = 8;
             this.btnShowTxt.Text = "Show Text";
             this.btnShowTxt.UseVisualStyleBackColor = true;
@@ -123,9 +131,10 @@
             // 
             // nxtLyric
             // 
-            this.nxtLyric.Location = new System.Drawing.Point(93, 136);
+            this.nxtLyric.Location = new System.Drawing.Point(140, 209);
+            this.nxtLyric.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nxtLyric.Name = "nxtLyric";
-            this.nxtLyric.Size = new System.Drawing.Size(75, 23);
+            this.nxtLyric.Size = new System.Drawing.Size(112, 35);
             this.nxtLyric.TabIndex = 9;
             this.nxtLyric.Text = "Next Lyric";
             this.nxtLyric.UseVisualStyleBackColor = true;
@@ -133,47 +142,51 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(12, 165);
+            this.btnSave.Location = new System.Drawing.Point(18, 254);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(112, 35);
             this.btnSave.TabIndex = 10;
-            this.btnSave.Text = "Save Lyric";
+            this.btnSave.Text = "Save File";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(93, 165);
+            this.btnOpen.Location = new System.Drawing.Point(140, 254);
+            this.btnOpen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
+            this.btnOpen.Size = new System.Drawing.Size(112, 35);
             this.btnOpen.TabIndex = 11;
-            this.btnOpen.Text = "Open Lyric";
+            this.btnOpen.Text = "Open File";
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 194);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 298);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 180);
+            this.pictureBox1.Size = new System.Drawing.Size(479, 276);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(338, 194);
+            this.pictureBox2.Location = new System.Drawing.Point(507, 298);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(320, 180);
+            this.pictureBox2.Size = new System.Drawing.Size(479, 276);
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 387);
+            this.ClientSize = new System.Drawing.Size(1005, 595);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOpen);
@@ -187,6 +200,7 @@
             this.Controls.Add(this.txtVUrl);
             this.Controls.Add(this.chkLoop);
             this.Controls.Add(this.btnShowBG);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Control";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
