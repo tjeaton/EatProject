@@ -69,7 +69,7 @@
             // 
             this.txtVUrl.Location = new System.Drawing.Point(12, 15);
             this.txtVUrl.Name = "txtVUrl";
-            this.txtVUrl.Size = new System.Drawing.Size(515, 20);
+            this.txtVUrl.Size = new System.Drawing.Size(646, 20);
             this.txtVUrl.TabIndex = 3;
             this.txtVUrl.Text = "C:\\\\Users\\\\Tom\\\\Desktop\\\\def1.mp4";
             // 
@@ -97,7 +97,7 @@
             this.txtOne.Location = new System.Drawing.Point(12, 84);
             this.txtOne.Multiline = true;
             this.txtOne.Name = "txtOne";
-            this.txtOne.Size = new System.Drawing.Size(515, 20);
+            this.txtOne.Size = new System.Drawing.Size(646, 20);
             this.txtOne.TabIndex = 6;
             this.txtOne.Text = "LineOne\\r\\nLineTwo";
             // 
@@ -106,7 +106,7 @@
             this.txtTwo.Location = new System.Drawing.Point(12, 110);
             this.txtTwo.Multiline = true;
             this.txtTwo.Name = "txtTwo";
-            this.txtTwo.Size = new System.Drawing.Size(515, 20);
+            this.txtTwo.Size = new System.Drawing.Size(646, 20);
             this.txtTwo.TabIndex = 7;
             this.txtTwo.Text = "LineThree\\r\\nLineFour";
             this.txtTwo.TextChanged += new System.EventHandler(this.txtTwo_TextChanged);
